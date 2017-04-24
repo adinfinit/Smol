@@ -1,2 +1,3 @@
-# efla
-Escape from LA
+# Smoll
+
+Robot life story in the world of small.
