@@ -10,4 +10,7 @@ EditorBuildSettings:
     guid: 8fbccede8d0a84444ac19582cd93e59a
   - enabled: 1
     path: Assets/Scenes/Tree/TreeScene.unity
-    guid: 00000000000000000000000000000000
+    guid: 028439244bb40c74d9a5fbc16f1b7575
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/TutorialScene.unity
+    guid: 78e7cf4bd5e11b74a834cf399ad675a5
