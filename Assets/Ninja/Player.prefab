@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 114007002625097950}
   - component: {fileID: 114883540598968496}
   - component: {fileID: 114096868645951264}
+  - component: {fileID: 114533751049823460}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1998,6 +1999,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b8b83e5315aa641b3c870b52b1d16e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114533751049823460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192111137549992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 167eeb6226628564982285a7a4130874, type: 2}
 --- !u!114 &114682586460941240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2017,9 +2030,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1192111137549992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 0.1
+  visualiseInEditor: 0
+  closestDistance: 0.5
+  dontClipTag: Player
 --- !u!114 &114918860958085596
 MonoBehaviour:
   m_ObjectHideFlags: 1
