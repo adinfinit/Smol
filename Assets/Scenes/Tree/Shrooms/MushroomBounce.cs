@@ -24,6 +24,22 @@ public class MushroomBounce : MonoBehaviour
 		initialScale = transform.localScale.y;
 	}
 
+	void OnDrawGizmos ()
+	{
+		Vector3 origin = transform.position;
+		SphereCollider scollider = GetComponent<SphereCollider> ();
+		if (scollider != null) {
+			Vector3 newpos = transform.localToWorldMatrix * scollider.center;
+			origin = transform.position + newpos;
+		}
+		Vector3 target = origin + transform.up * magnitude;
+		Gizmos.DrawLine (origin, target);
+		Gizmos.DrawSphere (target, 0.3f);
+		Vector3 offset = new Vector3 ();
+		offset.y = target.y - origin.y;
+		Gizmos.DrawLine (target, target - offset);
+	}
+
 	void Update ()
 	{
 		if (bounceTimer < 0.3f) {
@@ -38,9 +54,7 @@ public class MushroomBounce : MonoBehaviour
 		}
 
 		#if UNITY_EDITOR
-		Debug.DrawRay (this.transform.position, Vector3.up * 10f, Color.red);
-		Debug.DrawRay (this.transform.position, transform.rotation * Vector3.up * 3f, Color.black);
-		Debug.DrawRay (this.transform.position, transform.up * 3f, Color.blue);
+		Debug.DrawRay (this.transform.position, transform.up * magnitude, Color.blue);
 		#endif
 	}
 
