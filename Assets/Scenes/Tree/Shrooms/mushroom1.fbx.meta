@@ -1,26 +1,21 @@
 fileFormatVersion: 2
-guid: bcf3b1db7af56d148bc087acc784c26c
-timeCreated: 1493028814
+guid: 706ab86526b020245b8f005d4a9e9125
+timeCreated: 1493032309
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Sun
-    100002: //RootNode
-    100004: Terrain
-    100006: Cylinder
-    400000: Sun
-    400002: //RootNode
-    400004: Terrain
-    400006: Cylinder
-    2300000: Terrain
-    2300002: //RootNode
-    2300004: Cylinder
-    3300000: Terrain
-    3300002: //RootNode
-    3300004: Cylinder
-    4300000: Terrain
-    4300002: Cylinder
+    100000: Camera
+    100002: Lamp
+    100004: //RootNode
+    100006: mushroom1
+    400000: Camera
+    400002: Lamp
+    400004: //RootNode
+    400006: mushroom1
+    2300000: mushroom1
+    3300000: mushroom1
+    4300000: mushroom1
   materials:
     importMaterials: 1
     materialName: 0

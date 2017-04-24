@@ -1,26 +1,15 @@
 fileFormatVersion: 2
-guid: bcf3b1db7af56d148bc087acc784c26c
-timeCreated: 1493028814
+guid: 1edbfb4d057786d4b93781e36b48d2c5
+timeCreated: 1493032309
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Sun
-    100002: //RootNode
-    100004: Terrain
-    100006: Cylinder
-    400000: Sun
-    400002: //RootNode
-    400004: Terrain
-    400006: Cylinder
-    2300000: Terrain
-    2300002: //RootNode
-    2300004: Cylinder
-    3300000: Terrain
-    3300002: //RootNode
-    3300004: Cylinder
-    4300000: Terrain
-    4300002: Cylinder
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: mushroom3
   materials:
     importMaterials: 1
     materialName: 0
