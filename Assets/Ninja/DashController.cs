@@ -73,6 +73,12 @@ public class DashController : MonoBehaviour
 
 	void Update ()
 	{
+		if (Input.GetKeyUp (KeyCode.Escape)) {
+			SceneController.StaticLoadMenu ();
+			return;
+		}
+
+
 		Move = Vector3.zero;
 
 		TryMove (KeyCode.A, Vector3.left, ref Move_Left, ref DashesRemaining, DashDistance);

@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+	public void Start ()
+	{
+	}
+
 	public void LoadMenu ()
 	{
 		StaticLoadMenu ();
@@ -19,6 +23,11 @@ public class SceneController : MonoBehaviour
 	public void LoadPlay ()
 	{
 		StaticLoadPlay ();	
+	}
+
+	public void ExitGame ()
+	{
+		Application.Quit ();
 	}
 
 	public static void StaticLoadMenu ()
